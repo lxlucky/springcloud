@@ -3,10 +3,10 @@ spring:
     druid:
       url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
       username: root
-      password: sasa
+      password: {cipher}AQCpQMcGJh45WTGCCD/LuPRYm7GiU9QSF/RAPQamirotqy3N4/FwK26tuHYbBh45HG5WFEIMwaKnrBoLdoqLQg2vGp8kG2RLBAaP5RslFAq3ENx1i2gNLt3NR5j67gNAy/QNvjHYd+sl89iO31R1iZgzNQC3WefpBl4DCpsHwZsP9EepdTjtxdrLss8SGbGoeYbfvbm02hs3A3ooKn2s6opuynmjzvyw54qlbee8mT/vLo27wqya6fhVuyt855zelNjrOkQ3iZESpQNEahQBMDUFI6BASZcWqLydBeoYaumZH79k4z3a9gpRwtGf52D9x1YdDaXbegztP+b4nZBORYfwRg0WEgraSBInfQa/WxBqJaD6VjH+hc+uN1WUNoWe7Ds=
       stat-view-servlet:
         login-username: admin
-        login-password: admin
+        login-password: {cipher}AQCqoUYbxA2NtmrspmMBEHSSuWgTFfUNoRi+KU0n+W6D6g8dWZKAogNOeR6o9Qk5KDzbEeTZUqAMDXDaUXJ/nQDm4Xnwrjhj30/UZpxEzJAa14Dmn9dsM/8SCZEACaO3XfFZ4yHQ56D0IctKK0YSvLAV+Suawi1Yf3/DqsZXX+xYOwI0a1xCkURiB/a38tIpES1szxEDSuJWQl38OEf6D+0ppZfkTod17mGrw5TChM+1IJPdPq5asIBGFgF0ohD1+AnubldePDmNKvoFFvwcAtYLYHVo84ZkOZ/v4fd1YT9fpqAGebQlvOGWtV0XtM1F1S7vpwx4qhMYkI/iOaHi9fsu50RibqTiH++bxQWqyPIYcDe7lxIMtoIM45RYB5qz+I4=
   jpa:
     show-sql: true
     hibernate:
